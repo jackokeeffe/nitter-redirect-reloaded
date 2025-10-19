@@ -14,7 +14,7 @@ Allows for setting custom [Nitter instances](https://status.d420.de/) and toggli
 
 ## Usage
 
-The extension is currenlty being submitted to Firefox, and to submit to Chrome it must be updated to Manifest V3, which will take me some time. 
+The extension is currently being submitted to Firefox, and to submit to Chrome it must be updated to Manifest V3, which will take me some time. 
 
 In the meantime, you can easily run the extension in Firefox by:
 1. Downloading the ZIP of this extension.
