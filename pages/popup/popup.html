@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title></title>
+    <link href="./popup.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header>
+      <div class="logo-container">
+        <img src="../../images/icon128.png" alt="Nitter Redirect Reloaded logo" />
+      </div>
+      <small>
+        <span>Version:&nbsp;<span id="version"></span></span>
+        <br>
+        <a target="_blank" href="https://github.com/jackokeeffe/nitter-redirect-reloaded">Source Code</a>
+      </small>
+    </header>
+
+    <section class="options settings_block">
+      <div class="onoffswitch switch" aria-label="Toggle Nitter redirects">
+        <h1>Toggle Redirects</h1>
+        <input
+          aria-hidden="true"
+          name="toggleNitter"
+          id="toggle-nitter"
+          type="checkbox"
+          checked
+        />&nbsp;
+        <label for="toggle-nitter" class="checkbox-label"> </label>
+      </div>
+    </section>
+
+    <section class="options settings_block">
+      <h1>Nitter Instance</h1>
+      <input
+        id="instance"
+        list="instance-list"
+        type="url"
+        placeholder="https://nitter.net"
+      />
+      <datalist id="instance-list">
+        <option value="https://nitter.net"> </option>
+        <option value="https://xcancel.com"> </option>
+        <option value="https://nitter.poast.org"> </option>
+        <option value="https://nitter.privacyredirect.com"> </option>
+        <option value="https://lightbrd.com/"> </option>
+        <option value="https://nitter.space"> </option>
+        <option value="https://nitter.tiekoetter.com"> </option>
+        <option value="https://nuku.trabun.org/"> </option>
+      </datalist>
+    </section>
+
+    <script src="./popup.js"></script>
+  </body>
+</html>
