@@ -4,17 +4,13 @@ A simple browser extension that redirects X (formerly Twitter) requests to [Nitt
 
 ![Firefox Screenshot](firefox/images/Screenshot%20Firefox.png)
 
-This is a **modified version** of Simon Brazell's [Nitter Redirect](https://github.com/SimonBrazell/nitter-redirect), which had not been updated to support x.com domains.
-
 This is a **modified version** of Simon Brazell's [Nitter Redirect](https://github.com/SimonBrazell/nitter-redirect), which had not been updated to support x.com domains. 
 
-
-This version also updates the [available Nitter instances](https://status.d420.de/), as the majority of the original instances had been taken down. The onion instances have also been removed — if you are aware of any active onion instances, please submit an issue or a pull request with the onion addresses.
+This version updates the extension for Manifest V3, adds basic security updates, and updates the [available Nitter instances](https://status.d420.de/), as the majority of the original instances had been taken down. The onion instances have also been removed — if you are aware of any active onion instances, please submit an issue or a pull request with the onion addresses.
 
 No unnecessary permissions are required, only listens for and redirects requests made to `x.com`, `www.x.com`, `mobile.x.com`, and nothing else.
 
 Allows for setting custom [Nitter instances](https://status.d420.de/) and toggling redirects on & off.
-
 
 ## Version 1.1
 Version 1.1 is optimized for Manifest V3, but since Firefox does not support background.service_workers, Manifest V2 solutions **MUST** be used in Firefox, hence the separate versions ([Chrome-optimized]() and [Firefox-optimized]()).
