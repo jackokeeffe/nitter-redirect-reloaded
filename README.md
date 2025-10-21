@@ -1,8 +1,8 @@
-# ![nitter-redirect](images/icon32.png) Nitter Redirect Reloaded
+# ![nitter-redirect](fireox/images/icon32.png) Nitter Redirect Reloaded
 
 A simple browser extension that redirects X (formerly Twitter) requests to [Nitter](https://github.com/zedeus/nitter), the privacy friendly alternative.
 
-![Firefox Screenshot](images/Screenshot%20Firefox.png)
+![Firefox Screenshot](firefox/images/Screenshot%20Firefox.png)
 
 This is a **modified version** of Simon Brazell's [Nitter Redirect](https://github.com/SimonBrazell/nitter-redirect), which had not been updated to support x.com domains.
 
