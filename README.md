@@ -14,18 +14,6 @@ No unnecessary permissions are required, only listens for and redirects requests
 
 Allows for setting custom [Nitter instances](https://status.d420.de/) and toggling redirects on & off.
 
-## Usage
-
-The extension is currently being submitted to Firefox, and to submit to Chrome it must be updated to Manifest V3, which will take me some time. 
-
-In the meantime, you can easily run the extension in Firefox by:
-1. Downloading the ZIP of this extension.
-1. Search about:debugging on Firefox.
-2. Click on 'This Firefox' on the left-hand side.
-3. Click 'Load Temporary Add-On'.
-4. Select the manifest.json from the ZIP, open.
-5. The extension will be active and redirect any requests made to x.com to an active Nitter instance.
-
 ## Contribute
 
 If you wish to contribute to this extension, either submit a pull request or contact me @jackokeeffe:matrix.org
