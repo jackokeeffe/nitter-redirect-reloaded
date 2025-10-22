@@ -1,5 +1,7 @@
 # ![nitter-redirect](images/icon32.png) Nitter Redirect Reloaded
 
+[![Firefox Extension](images/badge-amo.png)](https://addons.mozilla.org/en-CA/firefox/addon/nitter-redirect-reloaded/)
+
 A simple browser extension that redirects X (formerly Twitter) requests to [Nitter](https://github.com/zedeus/nitter), the privacy friendly alternative.
 
 ![Firefox Screenshot](images/Screenshot%20Firefox.png)
